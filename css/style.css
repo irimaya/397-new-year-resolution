@@ -1,22 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* Main Styles */
+/* Main Styling */
 html,
 body {
 	font-family: 'Montserrat', sans-serif;
+	background: #024454;
+	color: #fff;
 }
 
-/* Bootstrap 5 */
-.btn-secondary {
+header {
+	background: url('/images/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Bootstrap Styling */
+.btn-primary {
 	background: #f5ce65;
 	border: 0;
 }
 
-.bg-primary {
-	background: #024454 !important;
+.btn-primary:hover {
+	background: #fca857;
 }
 
-.border-secondary {
+.border-primary {
 	border-color: #f5ce65 !important;
 }
 
@@ -27,12 +36,4 @@ body {
 
 .border-6 {
 	border-width: 10px !important;
-}
-
-/* Header */
-.header {
-	background: url('/images/background.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 }
